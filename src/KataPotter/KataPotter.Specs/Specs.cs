@@ -34,7 +34,7 @@ namespace KataPotter.Specs
         public void TestServeralDiscounts()
         {
             Assert.AreEqual(8 + (8 * 2 * 0.95), price(new int[] { 0, 0, 1 }));
-            Assert.AreEqual(2 + (8 * 2 * 0.95), price(new int[] { 0, 0, 1, 1 }));
+            Assert.AreEqual(2 * (8 * 2 * 0.95), price(new int[] { 0, 0, 1, 1 }));
             Assert.AreEqual((8 * 4 * 0.8) + (8 * 2 * 0.95), price(new int[] { 0, 0, 1, 2, 2, 3 }));
             Assert.AreEqual(8 + (8 * 5 * 0.75), price(new int[] { 0, 1, 1, 2, 3, 4 }));
         }
