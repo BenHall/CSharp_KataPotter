@@ -49,8 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Specs.cs" />
+    <Compile Include="Implementation.cs" />
+    <Compile Include="TestSimpleDiscounts.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestBasics.cs" />
+    <Compile Include="TestEdgeCases.cs" />
+    <Compile Include="TestSeveralDiscounts.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
