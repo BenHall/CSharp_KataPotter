@@ -26,7 +26,7 @@ namespace KataPotter.Specs
         [Test]
         public void Four()
         {
-            Assert.AreEqual(8 * 6 * 0.75, price(new int[] { 0, 1, 2, 3, 4 }));
+            Assert.AreEqual(8 * 5 * 0.75, price(new int[] { 0, 1, 2, 3, 4 }));
         }
     }
 }
